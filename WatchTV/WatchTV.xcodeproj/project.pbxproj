@@ -8,8 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		6649C1702578F88E0021D295 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6649C16F2578F88E0021D295 /* MainTabBarController.swift */; };
+		6649C1962579405D0021D295 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6649C1952579405D0021D295 /* MainViewController.swift */; };
+		6649C19925796C5D0021D295 /* VestiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6649C19825796C5D0021D295 /* VestiViewController.swift */; };
+		6649C19C257970A10021D295 /* KinoAndShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6649C19B257970A10021D295 /* KinoAndShowViewController.swift */; };
+		6649C19F257970FE0021D295 /* EfirViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6649C19E257970FE0021D295 /* EfirViewController.swift */; };
 		6662A3752578D1460028FFDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6662A3742578D1460028FFDB /* AppDelegate.swift */; };
-		6662A3772578D1460028FFDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6662A3762578D1460028FFDB /* ViewController.swift */; };
 		6662A37A2578D1460028FFDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6662A3782578D1460028FFDB /* Main.storyboard */; };
 		6662A37C2578D1470028FFDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6662A37B2578D1470028FFDB /* Assets.xcassets */; };
 		6662A37F2578D1470028FFDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6662A37D2578D1470028FFDB /* LaunchScreen.storyboard */; };
@@ -17,9 +20,12 @@
 
 /* Begin PBXFileReference section */
 		6649C16F2578F88E0021D295 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		6649C1952579405D0021D295 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6649C19825796C5D0021D295 /* VestiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VestiViewController.swift; sourceTree = "<group>"; };
+		6649C19B257970A10021D295 /* KinoAndShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinoAndShowViewController.swift; sourceTree = "<group>"; };
+		6649C19E257970FE0021D295 /* EfirViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EfirViewController.swift; sourceTree = "<group>"; };
 		6662A3712578D1460028FFDB /* WatchTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6662A3742578D1460028FFDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6662A3762578D1460028FFDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6662A3792578D1460028FFDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6662A37B2578D1470028FFDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6662A37E2578D1470028FFDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +43,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6649C1A1257971210021D295 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6649C1952579405D0021D295 /* MainViewController.swift */,
+				6649C19825796C5D0021D295 /* VestiViewController.swift */,
+				6649C19B257970A10021D295 /* KinoAndShowViewController.swift */,
+				6649C19E257970FE0021D295 /* EfirViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		6662A3682578D1460028FFDB = {
 			isa = PBXGroup;
 			children = (
@@ -57,8 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				6662A3742578D1460028FFDB /* AppDelegate.swift */,
-				6662A3762578D1460028FFDB /* ViewController.swift */,
 				6649C16F2578F88E0021D295 /* MainTabBarController.swift */,
+				6649C1A1257971210021D295 /* Controllers */,
 				6662A3782578D1460028FFDB /* Main.storyboard */,
 				6662A37B2578D1470028FFDB /* Assets.xcassets */,
 				6662A37D2578D1470028FFDB /* LaunchScreen.storyboard */,
@@ -137,9 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6662A3772578D1460028FFDB /* ViewController.swift in Sources */,
+				6649C19F257970FE0021D295 /* EfirViewController.swift in Sources */,
+				6649C1962579405D0021D295 /* MainViewController.swift in Sources */,
 				6662A3752578D1460028FFDB /* AppDelegate.swift in Sources */,
+				6649C19925796C5D0021D295 /* VestiViewController.swift in Sources */,
 				6649C1702578F88E0021D295 /* MainTabBarController.swift in Sources */,
+				6649C19C257970A10021D295 /* KinoAndShowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
