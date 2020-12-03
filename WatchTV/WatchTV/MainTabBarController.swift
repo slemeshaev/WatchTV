@@ -13,6 +13,7 @@ class MainTabBarController: UITabBarController {
         super.viewDidLoad()
 
         view.backgroundColor = .gray
+        tabBar.barTintColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         
         viewControllers = [
             generateViewController(rootViewController: MainViewController(), title: "Главная"),
