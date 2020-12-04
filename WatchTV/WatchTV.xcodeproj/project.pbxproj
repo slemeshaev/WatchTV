@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		6649C19925796C5D0021D295 /* VestiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6649C19825796C5D0021D295 /* VestiViewController.swift */; };
 		6649C19C257970A10021D295 /* KinoAndShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6649C19B257970A10021D295 /* KinoAndShowViewController.swift */; };
 		6649C19F257970FE0021D295 /* EfirViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6649C19E257970FE0021D295 /* EfirViewController.swift */; };
+		664C3FEC257A1D1C0003E05B /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664C3FEB257A1D1C0003E05B /* MenuModel.swift */; };
+		664C3FF0257A1E0E0003E05B /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664C3FEF257A1E0E0003E05B /* MovieModel.swift */; };
 		6662A3752578D1460028FFDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6662A3742578D1460028FFDB /* AppDelegate.swift */; };
 		6662A37A2578D1460028FFDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6662A3782578D1460028FFDB /* Main.storyboard */; };
 		6662A37C2578D1470028FFDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6662A37B2578D1470028FFDB /* Assets.xcassets */; };
@@ -26,6 +28,8 @@
 		6649C19825796C5D0021D295 /* VestiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VestiViewController.swift; sourceTree = "<group>"; };
 		6649C19B257970A10021D295 /* KinoAndShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinoAndShowViewController.swift; sourceTree = "<group>"; };
 		6649C19E257970FE0021D295 /* EfirViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EfirViewController.swift; sourceTree = "<group>"; };
+		664C3FEB257A1D1C0003E05B /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		664C3FEF257A1E0E0003E05B /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MovieModel.swift; path = WatchTV/Models/MovieModel.swift; sourceTree = SOURCE_ROOT; };
 		6662A3712578D1460028FFDB /* WatchTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6662A3742578D1460028FFDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6662A3792578D1460028FFDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,7 +58,6 @@
 				70DAEBE8BFABCCD4A0C5A436 /* Pods-WatchTV.debug.xcconfig */,
 				8735AD67F3AEA8F4937E486F /* Pods-WatchTV.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -67,6 +70,15 @@
 				6649C19E257970FE0021D295 /* EfirViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		664C3FEE257A1DE70003E05B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				664C3FEB257A1D1C0003E05B /* MenuModel.swift */,
+				664C3FEF257A1E0E0003E05B /* MovieModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		6662A3682578D1460028FFDB = {
@@ -92,6 +104,7 @@
 			children = (
 				6662A3742578D1460028FFDB /* AppDelegate.swift */,
 				6649C16F2578F88E0021D295 /* MainTabBarController.swift */,
+				664C3FEE257A1DE70003E05B /* Models */,
 				6649C1A1257971210021D295 /* Controllers */,
 				6662A3782578D1460028FFDB /* Main.storyboard */,
 				6662A37B2578D1470028FFDB /* Assets.xcassets */,
@@ -226,6 +239,8 @@
 				6649C19F257970FE0021D295 /* EfirViewController.swift in Sources */,
 				6649C1962579405D0021D295 /* MainViewController.swift in Sources */,
 				6662A3752578D1460028FFDB /* AppDelegate.swift in Sources */,
+				664C3FEC257A1D1C0003E05B /* MenuModel.swift in Sources */,
+				664C3FF0257A1E0E0003E05B /* MovieModel.swift in Sources */,
 				6649C19925796C5D0021D295 /* VestiViewController.swift in Sources */,
 				6649C1702578F88E0021D295 /* MainTabBarController.swift in Sources */,
 				6649C19C257970A10021D295 /* KinoAndShowViewController.swift in Sources */,

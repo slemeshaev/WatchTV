@@ -9,9 +9,9 @@ import Foundation
 
 struct Menu {
     var header: String
-    var row: [String]
+    var row: [MovieModel]
     
-    init(header: String, row: [String]) {
+    init(header: String, row: [MovieModel]) {
         self.header = header
         self.row = row
     }

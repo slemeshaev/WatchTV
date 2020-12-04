@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct MovieModel {
+    var movieTitle: String
+    var genre: String
+}
